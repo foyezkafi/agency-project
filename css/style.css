@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+/* ---------common css part st */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+:root {
+    /* ------font family st----- */
+    --dm: "DM Sans", sans-serif;
+    --roboto: "Roboto Serif", serif;
+    /* --------font family end------- */
+    /* -------text color st--- */
+    --text_color: #FBFBFB;
+    --oc_color: #0C0C0C;
+    --brand_color: #64CCC5;
+    /* ------text color end----- */
+
+}
+
+.common_head h2 {
+    width: 695px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: #0C0C0C;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+.common_head h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--brand_color);
+    text-align: center;
+    margin-top: 106px;
+}
+
+/* ---------common css part end */
+
+/* ---------nav bar part  part st */
+
+.main_menu {
+    width: 100%;
+}
+
+.header {
+    background: url(../image/Group\ 1000003543.png);
+    padding-top: 37px;
+}
+
+.main_menu ul li a {
+    color: var(--text_color) !important;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--dm);
+
+}
+
+.navbar_button {
+    padding: 12px 15px;
+    background: var(--text_color);
+    border-radius: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+
+
+}
+
+.main_menu ul {
+    gap: 35px;
+}
+
+.main_menu ul li a {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.main_menu ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--text_color);
+    transition: .2s all linear;
+
+}
+
+.main_menu ul li a:hover::before {
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-top: 30px;
+}
+
+
+/* ---------nav bar  part end */
+/* --------banner  part st */
+
+
+#banner {
+
+
+    position: relative;
+    padding-top: 249px;
+    padding-bottom: 127px;
+}
+
+.banner_dots {
+    position: absolute;
+    top: 176px;
+    left: 0;
+}
+
+.banner_text h1 {
+    width: 608px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--text_color);
+}
+
+.banner_text h1 span {
+    color: var(--brand_color);
+}
+
+.banner_text p {
+    margin-top: 24px;
+    width: 557px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--text_color);
+
+}
+
+.button_a {
+    padding: 10px 20px 10px 10px;
+    background: #fff;
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+    margin-top: 32px;
+}
+
+.banner_text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--brand_color);
+    margin-top: 181px;
+}
+
+.banner_image {
+    display: flex;
+
+
+}
+
+.banner_image img {
+    width: 148px;
+}
+
+.banner_main_img {
+
+    position: absolute;
+    top: 112px;
+    right: 173px;
+}
+
+.banner_main_img img {
+    width: 850px;
+}
+
+
+
+
+/* --------banner  part end */
+/* ---------services part st */
+
+
+
+.singale_servicecard {
+    width: 422px;
+    padding: 45px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    transition: all linear .4s;
+}
+
+
+.singale_servicecard .serviceicon {
+    width: 80px;
+    height: 80px;
+    background: var(--oc_color);
+    border-radius: 50%;
+    color: var(--text_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    transition: all linear .4s;
+}
+
+.singale_servicecard h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+    margin-top: 62px;
+    transition: all linear .4s;
+}
+
+.singale_servicecard p {
+    width: 308px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+    margin-top: 15px;
+    transition: all linear .4s;
+}
+
+.singale_servicecard:hover {
+    background: var(--oc_color);
+
+}
+
+.singale_servicecard:hover .serviceicon {
+    background: var(--text_color);
+    color: var(--oc_color);
+}
+
+.singale_servicecard:hover h2 {
+    color: #FBFBFB;
+}
+
+.singale_servicecard:hover p {
+    color: #FBFBFB;
+}
+
+.servicecard_row {
+    display: flex;
+    gap: 66px;
+    margin-top: 65px;
+}
+
+.service_cardrow_2 {
+    display: flex;
+    gap: 66px;
+    margin-top: 65px;
+}
+
+/* ---------services part end */
+/* ---------about  part st */
+#about {
+    background: #0C0C0C;
+    margin-top: 93px;
+    padding-bottom: 100px;
+}
+
+.row img {
+    margin-top: 100px;
+}
+
+.about_text {
+    padding-left: 46px;
+}
+
+.about_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--brand_color);
+    margin-top: 179px;
+
+}
+
+.about_text h3 {
+    width: 568px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--text_color);
+    margin-top: 25px;
+}
+
+.about_text p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: #F4F4F4;
+    margin-top: 25px;
+}
+
+.singale_counter h4 {
+    width: fit-content;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--brand_color);
+    margin-top: 25px;
+
+}
+
+.singale_counter p {
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: #F4F4F4;
+}
+
+.singale_counterrow {
+    display: flex;
+    gap: 62px;
+}
+
+/* ---------about part end */
+/* ---------proces part st */
+.proces_text_h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+}
+
+.proces_text_h2 img {
+    width: 82px;
+
+}
+
+.proces_text_h2 .text {
+
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+
+}
+
+.p_row {
+    margin-top: 114px;
+}
+
+.pp_row p {
+    width: 183px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+    letter-spacing: 3%;
+
+}
+
+.pp_row {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------proces part end */
+/* ---------Showcasepart st */
+.shocase_row {
+    display: flex;
+    gap: 73px;
+}
+
+.Showcase h2 {
+    margin-top: 129px;
+    margin-bottom: 89px;
+}
+
+.Showcase_singale_1 img {
+    width: 595px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Showcase_singale_1 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+    margin-top: 16px;
+}
+
+.Showcase_singale_1 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+}
+
+.showcase_a a {
+    background: var(--oc_color);
+    color: var(--text_color);
+    margin-top: 174px;
+    margin-bottom: 51px;
+
+}
+
+.showcase_a {
+    text-align: right;
+}
+.image_oaver_lay{
+    width: 595px;
+    height: 404px;
+    background: #0c0c0c2f;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition: all linear .4s;
+}
+.image_oaver_lay img{
+    width: 50px;
+    height: 50px;
+}
+.showcase_image:hover .image_oaver_lay{
+    top: 0;
+
+}
+.showcase_image{
+    position: relative;
+    overflow: hidden;
+}
+/* --------Showcase part end */
+/* ---------Miller part st */
+
+#miller{
+    background: #F4F4F4;
+   padding: 45px;
+}
+.milar_image img{
+    width: 150px;
+    
+}
+.milar_image{
+    display: flex;
+    justify-content: center;
+}
+.milar_text h2{
+    width: 1194px;
+   
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+    margin-top: 35px;
+}
+.milar_text h3{
+     width: 1194px;
+   
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+    margin-top: 0;
+    text-align: center;
+}
+.milar_text h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--oc_color);
+    text-align: center;
+    margin-top: 35px;
+}
+.milar_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--oc_color);
+    text-align: center;
+}
+.milar_icon{
+    
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+}
+.milar_icon img{
+    width: 44px;
+    
+}
+
+/* ---------Miller part end */
+/* ---------frootercss part st */
+
+
+/* ---------frootercss part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
+/* ---------common css part st */
+
+/* ---------common css part end */
