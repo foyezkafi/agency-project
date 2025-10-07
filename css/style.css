@@ -594,8 +594,84 @@ img {
 
 
 
+.serchbar_frooter{
+    margin-top: 19px;
+}
+.serchbar_frooter form{
+    width: 433px;
+    height: 67px;
+    background: #fff;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.serchbar_frooter form button{
+    padding: 12px 15px;
+    background: var(--oc_color);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--text_color);
+    
+    letter-spacing: 3%;
+    border-radius: 20px;
+}
+.serchbar_frooter form input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.serchbar_frooter form input::placeholder{
+    padding-left: 23px;
+}
 
 
+
+
+
+.row_line{
+    background: #F4F4F4;
+    width: 100%;
+    height: 1px;
+    margin-top: 101px;
+    
+}
+
+
+
+
+
+.last_frooter_row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.last_frooter_row h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: var(--text_color);
+    margin-top: 29px;
+}
+.last_frooter_row p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);color: var(--text_color);
+    margin-top: 16px;
+}
+.last_row_icon .icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 29px;
+}
+.last_row_icon{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 34px;
+    gap: 15px;
+}
 /* ---------frootercss part end */
 /* ---------common css part st */
 
