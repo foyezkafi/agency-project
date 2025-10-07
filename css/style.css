@@ -525,8 +525,98 @@ img {
 
 /* ---------Miller part end */
 /* ---------frootercss part st */
+#frooter{
+    background: var(--oc_color);
+    margin-top: 111px;
+}
+.main_row_frooter{
+    display: flex;
+    justify-content: space-between;
+}
+.row_one img{
+    width: 200px;
+    margin-top: 100px;
+}
+.row_one p{
+    width: 367px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--text_color);
+    margin-top: 24px;
+}
 
 
+
+
+.row_two{
+    margin-top: 100px;
+}
+.row_two .main_li{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: #fff;
+}
+.row_two ul li{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--text_color);
+}
+
+
+.row_three .mainthree_li{
+    width: 126px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: #fff;
+}
+.row_three ul li{
+    width: 91px;
+     font-size: 16px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: var(--text_color);
+}
+.row_three{
+     margin-top: 100px;
+}
+
+
+
+
+.row_four img{
+    width: 136px;
+    margin-top: 100px;
+}
+
+.serchbar_frooter form{
+    width: 433px;
+    height: 67px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid #0C0C0C;
+    margin-top: 19px;
+}
+.serchbar_frooter form button{
+    padding: 12px 15px;
+    background: var(--oc_color);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--dm);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.serchbar_frooter form input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
 /* ---------frootercss part end */
 /* ---------common css part st */
 
